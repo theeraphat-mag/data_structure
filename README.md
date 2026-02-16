@@ -177,7 +177,7 @@ data_structure/
 ใช้ GCC compiler:
 
 ```bash
-gcc <ชื่อไฟล์>.c -o <ชื่อโปรแกรม> -lm
+gcc <ชื่อไฟล์>.c -o <ชื่อโปรแกรม>
 ./<ชื่อโปรแกรม>
 ```
 
@@ -187,8 +187,6 @@ gcc <ชื่อไฟล์>.c -o <ชื่อโปรแกรม> -lm
 gcc stack/stack_static.c -o stack_static
 ./stack_static
 ```
-
-> หมายเหตุ: ไฟล์ที่ใช้ `math.h` (เช่น infix_postfix) ต้องใส่ `-lm` ตอนคอมไพล์
 
 ---
 
